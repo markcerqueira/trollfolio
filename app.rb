@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  redirect '/arghghgh'
+  erb :index
 end
 
 get '/gboned/?' do
