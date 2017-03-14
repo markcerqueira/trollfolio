@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>SuperS(pencer)J3</title>
+
+<head>
+<style type="text/css">
+
+.quotes {display: none;}
+
+</style>
+</head>
+
+<body background="goku.jpg">
+
+<EMBED src="ssj3-trimmed.mp3"
+       autostart = true
+       controls  = console
+       hidden    = true
+       volume    = 75
+       width     = 0
+       height    = 0
+       loop      = true>
+		
+<body>
+
+<center>
+	
+<h1 style="color: blue; font-size: 4em;">... and this is TO GO EVEN FURTHER BEYOND!!!!</h1>	
+
+<img class="quotes" src="ssj3a.jpg"/>
+<img class="quotes" src="ssj3b.jpg"/>
+
+</center>
+	
+<!-- Including jquery -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+
+(function() {
+
+    var quotes = $(".quotes");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(4000)
+            .delay(1000)
+            .fadeOut(4000, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
+
+</script>
+
+</body>
+</html>

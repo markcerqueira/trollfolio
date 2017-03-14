@@ -12,6 +12,10 @@ get '/arghghgh/?' do
   erb :arghghgh
 end
 
+get '/spencer/?' do
+  erb :spencer
+end
+
 get '/rungogettodachoppa/?' do
   erb :rungogettodachoppa
 end
