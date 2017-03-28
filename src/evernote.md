@@ -17,6 +17,9 @@ Tea Time Jess<br>
 "Can someone review this small pull request?"<br>
 <img src="assets/en-lies.png"/>
 
+Jun the Grinch by Justin Street<br>
+<img src="assets/en-grinch.gif"/>
+
 Kirill the Prodigal Son<br>
 <img src="assets/en-prodigal.jpg"/>
 
