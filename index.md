@@ -1,7 +1,7 @@
-[ARGHGHGH](pages/arghghgh)
+[ARGHGHGH]({{ site.pagesurl }}/arghghgh)
 
-[RUN GO GET TO DA CHOPPA](pages/rungogettodachoppa)
+[RUN GO GET TO DA CHOPPA]({{ site.pagesurl }}/rungogettodachoppa)
 
-[G-BONED](pages/gboned)
+[G-BONED]({{ site.pagesurl }}/gboned)
 
-[SuperS(pencer)J3](pages/spencer)
+[SuperS(pencer)J3]({{ site.pagesurl }}/spencer)
