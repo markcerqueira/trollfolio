@@ -3,5 +3,3 @@ theme: jekyll-theme-merlot
 baseurl: "/trollfolio"
 
 pagesurl: "/trollfolio/src"
-
-assets: "/trollfolio/src/assets"
