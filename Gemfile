@@ -2,5 +2,4 @@ source "https://rubygems.org"
 
 ruby '2.3.3'
 
-gem 'sinatra', '1.1.0'
-gem 'rerun'
+gem "github-pages", group: :jekyll_plugins
